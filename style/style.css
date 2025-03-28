@@ -1,0 +1,1440 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:352px) and (max-width:480px) {
+   
+/*Oculto*/
+#seccionTresDesktop{
+    display: none;
+}
+#seccionCuatroDesktop{
+    display: none;
+}
+#seccionSieteDesktop{
+    display: none;
+}
+#seccionNueveDesktop{
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 15vw;
+}
+
+/*Titulo Header*/
+#tituloHeader {
+    width: 30%;
+    font-size: 8vw;
+    margin-left: 5vw;
+}
+
+/*Navegador Header*/
+nav {
+    display: flex;
+    width: 60%;
+    font-size: 3vw;
+    justify-content: space-around;
+    margin-right: 2vw;
+}
+
+/*Dos primeras letras titulo Header*/
+#letrasUnoHeader {
+    color: white;
+    font-weight: 700;
+}
+
+/*Letras Diferentes Titulo Header*/
+#letrasDosHeader {
+    color: #ff8b38;
+    font-weight: 100;
+}
+
+/*Seccion Uno de Section*/
+#seccionUno {
+    background-image: url(../Assets/headerBg.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+}
+
+/*Dos primeras letras nombre seccion Uno de Section*/
+#letrasUnoSecUno {
+    color: white;
+    font-weight: 700;
+    font-size: 10vw;
+    margin-bottom: 3vw;
+}
+
+/*Letras Naranjas titulo seccion Uno de Section*/
+#letrasDosSecUno {
+    color: #ff8b38;
+    font-weight: 100;
+}
+
+/*Subtitulo Seccion Uno de Section*/
+#subtitulosecUno {
+    color: white;
+    margin-bottom: 3vw;
+}
+/*Contenedor que hace una linea Sencilla en Seccion Uno de Section*/
+#lineaColorSecUno{
+    height: 0.3vw;
+    background-color: #8d8d8e;
+    width: 10vw;
+    margin-bottom: 3vw;
+}
+/*Parrafo de Seccion Uno de Section*/
+#parrafoSecUno {
+    color: white;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    font-weight: 100;
+    width: 70%;
+}
+
+/*Boton Secion Uno de Section*/
+#botonSecUno {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 2vw 3vw;
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+
+/*Parte dos de Secion Uno de Section*/
+#parteDosSecUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+/*Titulo parte Dos de Seccion Uno de Section*/
+#tituloPartDosSecUno {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    padding: 2vw 10%;
+    width: 80%;
+    font-size: 4vw;
+}
+
+/*Palabra Naranja "FREE" del titulo Parte Dos de Seccion Uno de Section */
+#palaTituloPartDosSecUno {
+    color: #ff8b38;
+}
+
+/*Contenedor Palabras informacion parte*/
+#contenedorInformacionPartDos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+/*Palabras informacion parte Dos de Seccion Uno de Section*/
+.informacionPartDosSecUno {
+    color: grey;
+    width: 100%;
+    height: 7vw;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 3vw;
+    font-size: 3.5vw;
+}
+/*Boton Parte Dos de Seccion Uno de Section*/
+#BotonPartDosSecUno{
+    height: 9vw;
+    width: 100%;
+    background-color: #ff8b38;
+    color: white;
+    border: none;
+}
+/*Palabra de formulario*/
+.palabraInfoPartDos{
+    margin: 0% 40%;
+}
+/*Palabra formulario "PASSWORD"*/
+#palabraInfoPartDos{
+    margin: 0% 35%;
+}
+/*Seccion Logos*/
+#seccionLogos{
+    display: flex;
+    padding: 2vw;
+    margin-bottom: 2vw;
+    height: 10vw;
+
+}
+/*titulo Seccion Logos*/
+#tituloSecLogos{
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+/*Parrafo Seccion Logos*/
+#parrafoSecLogos{
+    font-size: 3vw;
+}
+/*Imagenes Seccion Logos*/
+.imagenesLogos{
+    width: 7vw;
+    height: 5vw;
+    margin: 0px 2px;
+}
+/*Contenedor Parte uno de Seccion Logos*/
+#parteUnoSecLogos{
+    width: 60%;
+}
+/*Contenedor Logos Seccion Logos*/
+#contenedorLogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Contenedor Seccion Dos de Section*/
+#seccionDos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw 2vw 3vw 1vw;
+    background-color: #f5f5f5;
+}
+/*Columna uno de la Seccion Dos de Section*/
+#columUnoSecDos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Columna Dos Seccion Dos de Section*/
+#columDosSecDos{
+    width: 50%;
+}
+/*Contenedor diferente de los cajones TAB*/
+#cajonTabUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8b38;
+    width: 25vw;
+    height: 25vw;
+    font-size: 5vw;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1vw;
+
+}
+/*Contenedor de cajones Tab (2-3)*/
+.cajonesTab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 25vw;
+    height: 25vw;
+    font-size: 5vw;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+/*titulo Columna Dos Seccion Dos de Section*/
+#tituloColumDos{
+    font-size:6vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+/*Parrafo Uno de Columna Dos de Seccion Dos de Section*/
+#parrafoUnoColumDos{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+    text-align: justify;
+}
+/*Parrafo Dos de Columna Dos de Seccion Dos de Section*/
+#parrafoDosColumnDos{
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    text-align: justify;
+}
+/*Boton Columna Dos de Seccion Dos de Section*/
+#botonColumnDos{
+    background-color: #ff8b38;
+    color: white;
+    border: none;
+    width: 25vw;
+    height: 10vw;
+    margin: 0vw 25%;
+}
+/*Contenedor Imagen Uno*/
+#contenedorImagenUno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+/*Imagen Seccion Dos de Section*/
+#imagenUno{
+    width: 70%;
+    height: auto;
+    margin-top: 3vw;
+}
+/*Seccion Tres de Section*/
+#seccionTres{
+    display: flex;
+    flex-direction: column;
+}
+/*Titulo Seccion Tres de Section*/
+#tituloSeccionTres{
+    font-size: 6vw;
+    margin: 3vw 25%;
+}
+/*Contenedor que Generaa Linea debajo del titulo Seccion Tres de Section*/
+#lineaColorSecTres{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 30vw;
+    margin: 3vw 35%;
+}
+/*Titulo Seccion Tres de Seccion*/
+#parrafoSecTres{
+    margin-top: 3vw;
+    text-align: center;
+    padding: 0vw 3vw;
+}
+/*Contenedor Horizontal Uno de Seccion Tres de Section*/
+#contUnoSecTres{
+    display: flex;
+    width: 90%;
+    padding: 3vw 5%;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+/*Contenedor Horizontal Dos de Seccion Tres de Section*/
+#contDosSecTres{
+    display: flex;
+    width: 90%;
+    padding: 3vw 5%;
+margin-bottom: 4vw;
+}
+/*Icono Contenedor con Texto*/
+.iconosMensaje{
+    width: 10vw;
+    height: 10vw;
+    margin-right: 2vw;
+}
+/*Contenedor Horizontal de Texto e Iconos Seccion Tres de Section*/
+.contenedorTextoSecTres{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+}
+/*Titulo Contenedores Horizontales Secion Tres de Section*/
+.tituloContSecTres{
+    font-size: 5vw;
+    font-weight: 500;
+}
+/*Parrafos del Contenedor Horizontal Seccion Tres de Section*/
+.parrafoSecTresContenedor{
+    font-size: 3vw;
+}
+/*Imagen Seccion Tres de Section*/
+.imagenes{
+    width: 80%;
+    margin: 1vw 10%;
+    margin-bottom: 4vw;
+}
+/*Titulo Seccion Cuatro de Section*/
+#tituloSecCuatro{
+    font-size: 8vw;
+    margin: 3vw 20%;
+    text-align: center;
+}
+/*Parrafo Section Cuatro de Section*/
+.parrafoSecCuatro{
+    text-align: justify;
+    font-size: 4vw;
+    margin: 5vw 10%;
+    width: 80%;
+}
+/*Titulo Seccion Cinco de Section*/
+#tituloSecCinco{
+    font-size: 8vw;
+    margin: 3vw 20%;
+    text-align: center;
+}
+/*Linea de Color debajo del Titulo Seccion Cinco de Section*/
+#lineaColorSecCinco{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 25vw;
+    margin: 3vw 40%;
+}
+/*Textos de Seccion Cinco (Debajo del titulo)*/
+#textoSecCinco{
+    text-align: justify;
+    font-size: 4vw;
+    margin: 5vw 16%;
+    width: 80%;
+}
+/*Contenedor de Textos Seccion Cinco de Section*/
+.contenedorTextosSecCinco{
+    width: 90%;
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Iconos Seccion Cinco de Section*/
+.iconosSecCinco{
+width: 20vw;
+}
+/*Subtitulo debajo de iconos de Seccion Cinco de Section*/
+.subtituloIconoSecCinco{
+    margin: 3vw;
+    font-weight: 700;
+}
+/*Parrafos de Seccion Cinco de Section*/
+.parrafoSecCinco{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+/*Seccion Seis de Section*/
+#seccionSeis{
+    background-color: #f5f5f5;
+}
+/*titulo Seccion Seis de Section*/
+#tituloSecSeis{
+    width: 100%;
+    text-align: center;
+    padding: 5vw 0vw;
+}
+/*Subtitulo Seccion Seis de Section*/
+#subtituloSecSeis{
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin: 5vw 0vw;
+    font-size: 4vw;
+}
+/*Contenedor Planes*/
+.planUnoTres{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vw;
+
+}
+/*Contenedor De todos los Planes Seccion Seis de Section*/
+#contenedorPlanes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Titulo Plan Uno y Plan Tres*/
+#tituloPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: #333333;
+    color: white;
+    margin-bottom: 0.3vw;
+    width: 100%;
+    height: 10vw;
+}
+/*Contenedor Precios Planes Uno y Tres*/
+.contenedorPrecioPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    width: 100%;
+    height: 15vw;
+    color: white;
+    font-size: 5vw;
+    padding-top: 3vw;
+}
+/*Plan Dos*/
+#planDos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vw;
+}
+/*Numero Grande de Los Precios de los Planes*/
+.numeroPlanes{
+    font-size: 15vw;
+}
+/*Texto Cursivo debajo del Texto de Seccion Seis de Section*/
+.textoCursivoPlanes{
+    font-style: italic;
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+padding-bottom: 3vw;
+font-size: 3vw;
+}
+/*Contenedor Naranja de Plan Dos de Seccion Planes*/
+#contenedorNarajaPlanDos{
+    height: 10vw;
+    background-color: #ff8b38;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    align-content: center;
+}
+/*Linea de Color Debajo se los precios de los Planes*/
+#lineaColorSecSeis{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 100%;
+    margin: 0vw 40%;
+}
+/*Items con texto de la lista de los Planes*/
+.itemsListaSecSeis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+border-bottom: 0.5px solid rgba(118, 118, 119, 0.5);
+height: 10vw;
+background-color: white;
+color: #333334;
+font-size: 3vw;
+}
+/*Lista Seccion Seis de Section*/
+#listaSecSeis{
+    list-style-type: none;
+    width: 100%;
+}
+/*Titulo Seccion Siete de Section*/
+#tituloSecSiete{
+    width: 80%;
+    margin: 3vw 10%;
+    text-align: center;
+}
+/*Linea Color Seccion Siete de Section*/
+#lineaColorSecSiete{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 70%;
+    margin: 5vw 15%;
+}
+/*Subtitulo Seccion Siete de Section*/
+#subtituloSecSiete{
+    width: 80%;
+    font-size: 3vw;
+    margin: 5vw 10%;
+    text-align: center;
+}
+/*Imagenes Personas Seccion Siete de Section*/
+.imagenesPersonas{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 3vw;
+}
+/*Contenedor Inofrmación Personas Seccion Siete de Section*/
+.personas{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    width: 80%;
+    text-align: center;
+    background: url(../Assets/textBubble.png);
+    margin: 5vw 10% ;
+    padding: 3vw 2vw;
+}
+/*Contenedores de Imagenes e Informacion Personas*/
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+}
+/*Nombre de las Personas Seccion Siete de Section*/
+.nombrePersonas{
+    margin-bottom: 3vw;
+    margin-left: 5vw;
+}
+/*Seccion Ocho de Section*/
+#seccionOcho{
+    background: url(../Assets/bg2.png);
+    background-size: 100% 100%;
+    padding: 5vw 0vw;
+}
+/*Titulo Seccion Ocho de Section*/
+#tituloSecOcho{
+    width: 80%;
+    margin: 3vw 10%;
+    text-align: center;
+    color: white;
+    margin: 5vw 10%;
+}
+/*Subtitulo Seccion Ocho de Section*/
+#subtituloSecOcho{
+    color: white;
+    width: 90%;
+    margin: 5vw 5%;
+    text-align: center;
+    font-size: 3vw;
+
+}
+/*Boton Seccion Ocho de Section*/
+#botonSecOcho{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 3vw;
+    margin: 3vw 40%;
+}
+/*Titulo Seccion Nueve de Section*/
+#tituloSecNueve{
+    width: 80%;
+    margin: 5vw 10%;
+    text-align: center;
+}
+/*Subtitulo Seccion Nueve de Section*/
+#subtituloSecNueve{
+    width: 80%;
+    margin: 5vw 10%;
+    text-align: center;
+    font-size: 3vw;
+}
+/*Contenedor Seccion Contacto*/
+#contenedorContacto{
+    width: 80%;
+    margin: 5vw 10%;
+    text-align: center;
+    filter: brightness(0.3);
+
+}
+/*Formulario de Contacto*/
+.infoContacto{
+    margin: 7vw 5vw;
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5vw;
+    filter: brightness(0.3);
+}
+/*Contenedor de Mensaje Seccion Contacto*/
+#contenedorMensajeCont{
+    width: 100%;
+    border: 1px solid lightgray;
+    padding-bottom: 15vw;
+    margin-top: 10vw;
+}
+/*Boton Seccion Contacto*/
+#botonSecNueve{
+    width: 36%;
+    padding: 3vw;
+    margin: 3vw 32%;
+    color: white;
+    background-color: #ff8b38;
+    border: none;
+    margin-bottom: 5vw;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*Contenedor de Logos del Footer*/
+#contenedorLogosFooter{
+    display: flex;
+    padding: 3vw;
+    justify-content: space-between;
+
+}
+/*Logos Seccion Footer*/
+.logosFooter{
+    width: 10vw;
+}
+/*Texto Footer*/
+#textoFooter{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+}
+@media  screen and (min-width:481px) and (max-width:768px) {
+   
+/*Oculto*/
+#seccionTres{
+    display: none;
+}    
+#seccionCuatro{
+    display: none;
+}
+#seccionSiete{
+    display: none;
+}
+#seccionNueve{
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 15vw;
+}
+
+/*Titulo Header*/
+#tituloHeader {
+    width: 30%;
+    font-size: 8vw;
+    margin-left: 5vw;
+}
+
+/*Navegador Header*/
+nav {
+    display: flex;
+    width: 60%;
+    font-size: 2.5vw;
+    justify-content: space-around;
+    margin-right: 2vw;
+}
+
+/*Dos primeras letras titulo Header*/
+#letrasUnoHeader {
+    color: white;
+    font-weight: 700;
+}
+
+/*Letras Diferentes Titulo Header*/
+#letrasDosHeader {
+    color: #ff8b38;
+    font-weight: 100;
+}
+
+/*Seccion Uno de Section*/
+#seccionUno {
+    background-image: url(../Assets/headerBg.png);
+    background-size: 100% 100%;
+    display: flex;
+    padding: 5vw;
+
+}
+/*Contenedor Columna Uno Seccion Uno de Section*/
+#contenedorColumnaUnoSecUno{
+    width: 50%;
+}
+
+/*Dos primeras letras nombre seccion Uno de Section*/
+#letrasUnoSecUno {
+    color: white;
+    font-weight: 700;
+    font-size: 8vw;
+    margin-bottom: 3vw;
+}
+
+/*Letras Naranjas titulo seccion Uno de Section*/
+#letrasDosSecUno {
+    color: #ff8b38;
+    font-weight: 100;
+}
+
+/*Subtitulo Seccion Uno de Section*/
+#subtitulosecUno {
+    color: white;
+    margin-bottom: 3vw;
+}
+/*Contenedor que hace una linea Sencilla en Seccion Uno de Section*/
+#lineaColorSecUno{
+    height: 0.3vw;
+    background-color: #8d8d8e;
+    width: 10vw;
+    margin-bottom: 3vw;
+}
+/*Parrafo de Seccion Uno de Section*/
+#parrafoSecUno {
+    color: white;
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+    width: 100%;
+}
+
+/*Boton Secion Uno de Section*/
+#botonSecUno {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 2vw 3vw;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+
+/*Parte dos de Secion Uno de Section*/
+#parteDosSecUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+/*Titulo parte Dos de Seccion Uno de Section*/
+#tituloPartDosSecUno {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    padding: 2vw 10%;
+    width: 80%;
+    font-size: 2.5vw;
+}
+
+/*Palabra Naranja "FREE" del titulo Parte Dos de Seccion Uno de Section */
+#palaTituloPartDosSecUno {
+    color: #ff8b38;
+}
+
+/*Contenedor Palabras informacion parte*/
+#contenedorInformacionPartDos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+/*Palabras informacion parte Dos de Seccion Uno de Section*/
+.informacionPartDosSecUno {
+    color: grey;
+    width: 100%;
+    height: 7vw;
+    border-bottom: 1px solid #d9d9d9;
+    margin-top: 3vw;
+    font-size: 3vw;
+}
+/*Boton Parte Dos de Seccion Uno de Section*/
+#BotonPartDosSecUno{
+    height: 9vw;
+    width: 100%;
+    background-color: #ff8b38;
+    color: white;
+    border: none;
+}
+/*Palabra de formulario*/
+.palabraInfoPartDos{
+    margin: 0% 40%;
+}
+/*Palabra formulario "PASSWORD"*/
+#palabraInfoPartDos{
+    margin: 0% 35%;
+}
+/*Seccion Logos*/
+#seccionLogos{
+    display: flex;
+    padding: 2vw;
+    margin-bottom: 2vw;
+    width: 96vw;
+
+}
+/*titulo Seccion Logos*/
+#tituloSecLogos{
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+}
+/*Parrafo Seccion Logos*/
+#parrafoSecLogos{
+    font-size: 2.5vw;
+}
+/*Imagenes Seccion Logos*/
+.imagenesLogos{
+    width: 5vw;
+    height: 5vw;
+    margin: 0px 2px;
+}
+/*Contenedor Parte uno de Seccion Logos*/
+#parteUnoSecLogos{
+    width: 50%;
+}
+/*Contenedor Logos Seccion Logos*/
+#contenedorLogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+/*Contenedor Seccion Dos de Section*/
+#seccionDos{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 2vw 3vw 3vw;
+    background-color: #f5f5f5;
+}
+/*Columna uno de la Seccion Dos de Section*/
+#columUnoSecDos{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Columna Dos Seccion Dos de Section*/
+#columDosSecDos{
+    width: 30%;
+}
+/*Contenedor diferente de los cajones TAB*/
+#cajonTabUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8b38;
+    width: 15vw;
+    height: 15vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1vw;
+
+}
+/*Contenedor de cajones Tab (2-3)*/
+.cajonesTab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 15vw;
+    height: 15vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+/*titulo Columna Dos Seccion Dos de Section*/
+#tituloColumDos{
+    font-size:3.5vw;
+    text-align: justify;
+    margin-bottom: 3vw;
+}
+/*Parrafo Uno de Columna Dos de Seccion Dos de Section*/
+#parrafoUnoColumDos{
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    text-align: justify;
+}
+/*Parrafo Dos de Columna Dos de Seccion Dos de Section*/
+#parrafoDosColumnDos{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    text-align: justify;
+}
+/*Boton Columna Dos de Seccion Dos de Section*/
+#botonColumnDos{
+    background-color: #ff8b38;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 8vw;
+    margin: 0vw 25%;
+    font-size: 2.5vw;
+}
+/*Contenedor Imagen Uno*/
+#contenedorImagenUno{
+    width: 30%;
+    display: flex;
+}
+/*Imagen Seccion Dos de Section*/
+#imagenUno{
+    width: 100%;
+    height: 50vw;
+    margin-top: 3vw;
+}
+/*Seccion Tres*/
+#seccionTresDesktop{
+    display: flex;
+}
+/*Contenedor Imagen Seccion Tres de Section*/
+#contenedorImgSecTres{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Contenedor Horizontal Seccion Tres*/
+#contenedorSecTresHorizontal{
+    display: flex;
+    width: 100%;
+}
+/*Contenedor Vertical Seccion Tres de Section*/
+#contenedorSecTresVertical{
+    width: 90%;
+    margin: 0vw 10%;
+}
+/*Titulo Seccion Tres de Section*/
+#tituloSeccionTres{
+    font-size: 4vw;
+    width: 50%;
+    margin: 3vw 25%;
+}
+/*Contenedor que Generaa Linea debajo del titulo Seccion Tres de Section*/
+#lineaColorSecTres{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 25vw;
+    margin: 1.5vw 30%;
+}
+/*Titulo Seccion Tres de Seccion*/
+#parrafoSecTres{
+    margin: 3vw 10%;
+    text-align: justify;
+    font-size: 2vw;
+    width: 80%;
+}
+/*Contenedor Horizontal Uno de Seccion Tres de Section*/
+#contUnoSecTres{
+    display: flex;
+    width: 90%;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+/*Contenedor Horizontal Dos de Seccion Tres de Section*/
+#contDosSecTres{
+    display: flex;
+    width: 90%;
+margin-bottom: 4vw;
+}
+/*Icono Contenedor con Texto*/
+.iconosMensaje{
+    width: 5vw;
+    height: 5vw;
+    margin-right: 1vw;
+}
+/*Contenedor Horizontal de Texto e Iconos Seccion Tres de Section*/
+.contenedorTextoSecTres{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+}
+/*Titulo Contenedores Horizontales Secion Tres de Section*/
+.tituloContSecTres{
+    font-size: 3vw;
+    font-weight: 500;
+}
+/*Parrafos del Contenedor Horizontal Seccion Tres de Section*/
+.parrafoSecTresContenedor{
+    font-size: 2vw;
+}
+/*Imagen Seccion Tres de Section*/
+.imagenes{
+    width: 90%;
+    height: 35vw;
+    margin: 0vw 3vw;
+    margin-bottom: 4vw;
+}
+/*Contenedor Columna Uno de Seccion Cuatro de Section*/
+#contColumUnoSecCuatro{
+    width: 50%;
+}
+/*Contenedor Imagen en Columna Dos de Seccion Cuatro*/
+#contImgSecCuatro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Seccion Quatro*/
+#seccionCuatroDesktop{
+    display: flex;
+}
+/*Imagen Seccion Cuatro de Section*/
+#imSecCuatro{
+    width: 90%;
+    padding: 3vw 0vw;
+}
+/*Titulo Seccion Cuatro de Section*/
+#tituloSecCuatro{
+    font-size: 3.5vw;
+    margin: 3vw 5%;
+    text-align: center;
+}
+/*Linea de Color*/
+#lineaColorSecCuatro{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 25vw;
+    margin: 1.5vw 25%;
+}
+/*Parrafo Section Cuatro de Section*/
+.parrafoSecCuatro{
+    text-align: justify;
+    font-size: 2.5vw;
+    margin: 5vw 10%;
+    width: 80%;
+}
+/*Titulo Seccion Cinco de Section*/
+#tituloSecCinco{
+    font-size: 5vw;
+    margin: 3vw 20%;
+    text-align: center;
+}
+/*Linea de Color debajo del Titulo Seccion Cinco de Section*/
+#lineaColorSecCinco{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 25vw;
+    margin: 3vw 35%;
+}
+/*Textos de Seccion Cinco (Debajo del titulo)*/
+#textoSecCinco{
+    font-size: 2.5vw;
+    margin: 5vw 25%;
+    width: 70%;
+}
+/*Contenedor Horizontal Seccion Cinco de Section*/
+#contSecCinco{
+    display: flex;
+}
+/*Contenedor de Textos Seccion Cinco de Section*/
+.contenedorTextosSecCinco{
+    width: 90%;
+    margin: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Iconos Seccion Cinco de Section*/
+.iconosSecCinco{
+width: 10vw;
+}
+/*Subtitulo debajo de iconos de Seccion Cinco de Section*/
+.subtituloIconoSecCinco{
+    margin: 3vw;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 700;
+}
+/*Parrafos de Seccion Cinco de Section*/
+.parrafoSecCinco{
+    width: 80%;
+    font-size: 2vw;
+    text-align: justify;
+    margin-bottom: 5vw;
+}
+/*Seccion Seis de Section*/
+#seccionSeis{
+    background-color: #f5f5f5;
+}
+/*titulo Seccion Seis de Section*/
+#tituloSecSeis{
+    width: 100%;
+    text-align: center;
+    padding: 5vw 0vw 2vw 0vw;
+}
+/*Subtitulo Seccion Seis de Section*/
+#subtituloSecSeis{
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin: 5vw 0vw;
+    font-size: 3vw;
+}
+/*Contenedor Planes*/
+.planUnoTres{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vw;
+
+}
+/*Contenedor De todos los Planes Seccion Seis de Section*/
+#contenedorPlanes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/*Titulo Plan Uno y Plan Tres*/
+#tituloPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: #333333;
+    color: white;
+    margin-bottom: 0.3vw;
+    width: 90%;
+    height: 7vw;
+    font-size: 3vw;
+}
+/*Contenedor Precios Planes Uno y Tres*/
+.contenedorPrecioPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    width: 90%;
+    height: 15vw;
+    color: white;
+    font-size: 5vw;
+    padding-top: 3vw;
+}
+/*Plan Dos*/
+#planDos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vw;
+}
+/*Numero Grande de Los Precios de los Planes*/
+.numeroPlanes{
+    font-size: 10vw;
+}
+/*Texto Cursivo debajo del Texto de Seccion Seis de Section*/
+.textoCursivoPlanes{
+    font-style: italic;
+    background-color: #333333;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+padding-bottom: 3vw;
+font-size: 2.5vw;
+}
+/*Contenedor Naranja de Plan Dos de Seccion Planes*/
+#contenedorNarajaPlanDos{
+    height: 7vw;
+    background-color: #ff8b38;
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5vw;
+    align-content: center;
+}
+/*Linea de Color Debajo se los precios de los Planes*/
+#lineaColorSecSeis{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 90%;
+    margin: 0vw 40%;
+}
+/*Items con texto de la lista de los Planes*/
+.itemsListaSecSeis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+border-bottom: 0.5px solid rgba(118, 118, 119, 0.5);
+height: 7vw;
+background-color: white;
+color: #333334;
+font-size: 2.2vw;
+}
+/*Lista Seccion Seis de Section*/
+#listaSecSeis{
+    list-style-type: none;
+    width: 90%;
+}
+/*Titulo Seccion Siete de Section*/
+#tituloSecSiete{
+    width: 80%;
+    margin: 3vw 10%;
+    text-align: center;
+    font-size: 4vw;
+}
+/*Linea Color Seccion Siete de Section*/
+#lineaColorSecSiete{
+    height: 3px;
+    background-color: #ff8b38;
+    width: 20%;
+    margin: 5vw 40%;
+}
+/*Contenedor Horizontal Seccion Siete de Section*/
+#contSecSiete{
+    display: flex;
+    flex-direction: column;
+}
+/*Subtitulo Seccion Siete de Section*/
+#subtituloSecSiete{
+    width: 80%;
+    font-size: 2.5vw;
+    margin: 5vw 10%;
+    text-align: center;
+}
+/*Contenedor Parrafo Informacion Personas*/
+#contenedorTextoPersonas{
+    display: flex;
+    justify-content: space-around;
+}
+/*Contenedor Informacion*/
+#contenedorImgPersonas{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 0vw;
+}
+/*Imagenes Personas Seccion Siete de Section*/
+.imagenesPersonas{
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 3vw;
+}
+/*Contenedor Inofrmación Personas Seccion Siete de Section*/
+.personas{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    width: 20%;
+    text-align: center;
+    background: url(../Assets/textBubble.png);
+    margin-right: 2vw;
+    padding: 3vw 2vw;
+}
+/*Contenedores de Imagenes e Informacion Personas*/
+.contenedorImagen{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+/*Nombre de las Personas Seccion Siete de Section*/
+.nombrePersonas{
+    margin-bottom: 3vw;
+    margin-left: 2vw;
+    font-size: 3vw;
+}
+/*Seccion Ocho de Section*/
+#seccionOcho{
+    background: url(../Assets/bg2.png);
+    background-size: 100% 100%;
+    padding: 5vw 0vw;
+}
+/*Titulo Seccion Ocho de Section*/
+#tituloSecOcho{
+    width: 80%;
+    margin: 3vw 10%;
+    text-align: center;
+    color: white;
+    margin: 5vw 10%;
+}
+/*Subtitulo Seccion Ocho de Section*/
+#subtituloSecOcho{
+    color: white;
+    width: 90%;
+    margin: 5vw 5%;
+    text-align: center;
+    font-size: 3vw;
+
+}
+/*Boton Seccion Ocho de Section*/
+#botonSecOcho{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 3vw;
+    margin: 3vw 40%;
+}
+/*Contenedor Horizontal de Formulario Seccion Nueve de Section*/
+#contenedorSecNueve{
+    display: flex;
+    justify-content: space-around;
+}
+/*Titulo Seccion Nueve de Section*/
+#tituloSecNueve{
+    width: 80%;
+    margin: 3vw 10%;
+    text-align: center;
+}
+/*Subtitulo Seccion Nueve de Section*/
+#subtituloSecNueve{
+    width: 80%;
+    margin: 5vw 10%;
+    text-align: center;
+    font-size: 3vw;
+}
+/*Contenedor Seccion Contacto*/
+#contenedorContacto{
+    width: 45%;
+    margin: 5vw 3%;
+
+}
+/*Formulario de Contacto*/
+.infoContacto{
+    margin: 7vw 5vw 7vw 0vw;
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5vw;
+}
+/*Contenedor de Mensaje Seccion Contacto*/
+#contenedorMensajeCont{
+    width: 45%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 15vw;
+    margin-top: 15vw;
+    color: grey;
+}
+/*Boton Seccion Contacto*/
+#botonSecNueve{
+    width: 36%;
+    padding: 3vw;
+    margin: 3vw 32%;
+    color: white;
+    background-color: #ff8b38;
+    border: none;
+    margin-bottom: 5vw;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*Contenedor de Logos del Footer*/
+#contenedorLogosFooter{
+    display: flex;
+    padding: 3vw;
+    justify-content: space-between;
+
+}
+/*Logos Seccion Footer*/
+.logosFooter{
+    width: 10vw;
+}
+/*Texto Footer*/
+#textoFooter{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+}
+}
